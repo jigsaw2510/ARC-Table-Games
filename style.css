@@ -90,14 +90,7 @@
     left: 558px;
     top: 603px;
 }
-@media only screen and (max-width: 600px) {
-  #page-container {
-  	transform: scale(0.4);
-  	position: absolute;
-  	left: -220px;
-  	top: -310px;
-  }
-}
+
 #navbar {
 	position: absolute;
 	top: 10px;

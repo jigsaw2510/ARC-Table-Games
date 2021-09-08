@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.double-border {
+  background-color: #ccc;
+  border: 20px solid #F7CF9F;
+  box-shadow:
+    inset 0 0 0 60px #695B40;
+  /* And so on and so forth, if you want border-ception */
+  margin: 0 auto;
+  padding: 3em;
+  width: 16em;
+  height: 16em;
+  position: relative;
+}
+#page-container {
+	width: 600px;
+	height: 900px;
+	background-color: #44AA67;
+}
+#half-way-line {
+	background-color: white;
+	position: relative;
+	top: 400px;
+	left: 12px;
+	width: 576px;
+	height: 5px;
+}
+#center-circle {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border: 5px solid white;
+	border-radius: 50%;
+	top: 318px;
+	left: 225px;
+}
+#center-spot {
+	position: relative;
+	width: 1px;
+	height: 1px;
+	border: 10px solid white;
+	border-radius: 50%;
+	top: 65px;
+	left: 65px;
+}
+#corner-arc-home-left{
+    width: 20px;
+    height: 20px;
+    border-radius: 0 0 100px 0;
+    -moz-border-radius: 0 0 100px 0;
+    -webkit-border-radius: 0 0 100px 0;
+    border: 5px white solid;
+    position: relative;
+    left: 12px;
+    top: 12px;
+}
+#corner-arc-home-right{
+     width: 20px;
+     height: 20px;
+     border-radius: 0 0 0 100px;
+     -moz-border-radius: 0 0 0 100px;
+     -webkit-border-radius: 0 0 0 100px;
+     border: 5px white solid;
+    position: relative;
+    left: 558px;
+    top: -18px;
+}
+#corner-arc-away-left{
+     width: 20px;
+     height: 20px;
+     border-radius: 0 100px 0 0;
+     -moz-border-radius: 0 100px 0 0;
+     -webkit-border-radius: 0 100px 0 0;
+     border: 5px white solid;
+    position: relative;
+    left: 12px;
+    top: 633px;
+
+}
+#corner-arc-away-right{
+     width: 20px;
+     height: 20px;
+     border-radius: 100px 0 0 0;
+     -moz-border-radius: 100px 0 0 0;
+     -webkit-border-radius: 100px 0 0 0;
+     border: 5px white solid;
+    position: relative;
+    left: 558px;
+    top: 603px;
+}
+@media only screen and (max-width: 600px) {
+  #page-container {
+  	transform: scale(0.4);
+  	position: absolute;
+  	left: -220px;
+  	top: -310px;
+  }
+}
+#navbar {
+	position: absolute;
+	top: 10px;
+	left: 97px;
+	width: 500px;
+	height: 50px;
+}
+a {
+	margin: 16px;
+	font-size: 2em;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover {
+    color: green;
+    text-decoration: underline;
+}
+.selected {
+	color: #44AA67;
+}
+.selected:hover {
+    color: green;
+    text-decoration: none;
+}
